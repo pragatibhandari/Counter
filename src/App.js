@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(10)
 
   function decrementCount() {
-    setCount(prevCount => prevCount - 1)
+    setCount(prevCount => prevCount - 2)
     setCount(prevCount => prevCount - 1)
   }
   function incrimentCount(){
